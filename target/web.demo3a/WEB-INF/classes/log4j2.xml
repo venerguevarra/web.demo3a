@@ -15,7 +15,7 @@
 				<TimeBasedTriggeringPolicy />
 			</Policies>
 			<DefaultRolloverStrategy>
-				<Delete basePath="${basePathr}">
+				<Delete basePath="/var/logs/services/starter-webapp">
 					<!-- Delete all files older than 30 days -->
 					<IfLastModified age="30d" />
 				</Delete>
